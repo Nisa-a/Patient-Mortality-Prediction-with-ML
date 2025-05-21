@@ -7,7 +7,7 @@ This project applies supervised machine learning techniques to predict **a breas
 This notebook explores and compares the performance of three machine learning algorithms:
 
 - **Logistic Regression**
-- **K-Nearest Neighbors **
+- **K-Nearest Neighbors**
 - **Gaussian Naive Bayes**
 
 These models are trained to classify what a patient mortality status is using various medical features such as age, tumor stage, hormone status, and more.
