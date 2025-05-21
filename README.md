@@ -19,7 +19,7 @@ These models are trained to classify what a patient mortality status is using va
 - Source: `mortality_df.csv`
 - This dataset is a refined version of the original breast_cancer_data.csv, where irrelevant or redundant variables were removed, and only the most informative features were retained for analysis.
 - Features used include:
-  - Age, Sex, Tumor Staging (T, N, A, 6th), Tumor Size
+  - Age, Sex, Tumor Staging, Tumor Size
   - Estrogen and Progesterone Status
   - Regional Node Examination
   - Histological Grade and Differentiation
@@ -43,7 +43,7 @@ Target variable: `Mortality_Status` (Binary classification)
 
 ## 📁 Files in This Repo
 
-- `mortality_pred_ML.ipynb`: Main Jupyter Notebook containing all code and outputs
-- `README.md`: This description file
-- `mortality_df.csv`: Dataset file
-- `breast_cancer_data.csv`: Original datatset file
+- `mortality_prediction_ml.ipynb`: Main Jupyter Notebook containing all code and outputs
+- `README.md`: Description file
+- `mortality_df.csv`: Preprocessed dataset file
+- `breast_cancer_data.csv`: Unprocessed datatset file
